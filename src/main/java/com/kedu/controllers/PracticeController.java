@@ -11,6 +11,7 @@ public class PracticeController {
 	
 	@PostMapping
 	public ResponseEntity<Void> practice(){	
+		System.out.println("오징어 연습");
 		return ResponseEntity.ok().build();
 	}
 }
