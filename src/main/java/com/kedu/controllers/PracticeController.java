@@ -13,8 +13,7 @@ public class PracticeController {
 	public ResponseEntity<Void> practice(){	
 		System.out.println("안뇽");
 		System.out.println("나눈 유나");
-		String yuna = "hi";
-		String eunmi = "tsete";
+		System.out.print("승혜양 ~~~~~~~");
 		return ResponseEntity.ok().build();
 	}
 }
