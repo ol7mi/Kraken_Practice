@@ -11,6 +11,11 @@ public class PracticeController {
 	
 	@PostMapping
 	public ResponseEntity<Void> practice(){	
+		System.out.println("안뇽");
+		System.out.println("나눈 유나");
+		String yuna = "hi";
+		System.out.println("240902 크라켄 연습!");
+		String eunmi = "tsete";
 		System.out.println("오징어 연습");
 		return ResponseEntity.ok().build();
 	}
