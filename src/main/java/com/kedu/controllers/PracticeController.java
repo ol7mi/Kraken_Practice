@@ -14,6 +14,7 @@ public class PracticeController {
 		System.out.println("안뇽");
 		System.out.println("나눈 유나");
 		String yuna = "hi";
+		System.out.println("240902 크라켄 연습!");
 		String eunmi = "tsete";
 		return ResponseEntity.ok().build();
 	}
